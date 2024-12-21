@@ -1,0 +1,1 @@
+# kindle-en-ua-dictionary
