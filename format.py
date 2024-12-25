@@ -6,13 +6,6 @@ def process_dictionary_file(input_file, output_file):
     with open(input_file, 'r', encoding='utf-8') as file:
         content = file.read()
 
-    # Insert <head> with a link to style.css before <body>
-    content = re.sub(
-        r'(<body>)',
-        r'<head><link rel="stylesheet" href="style.css" /></head>\1',
-        content
-    )
-
     # Replace \n with <br>
     content = content.replace('\\n', '<br>')
 
@@ -26,20 +19,13 @@ def process_dictionary_file(input_file, output_file):
     content = re.sub(r'<font color="steelblue">(.*?)</font>', r'\1', content)  # Steelblue
     content = re.sub(r'<font color="darkred">(.*?)</font>', r'\1', content)  # Darkred
 
-    # Insert <mbp:pagebreak /> before each </idx:entry>
-    content = content.replace('</idx:entry>', '<mbp:pagebreak /></idx:entry>')
-
-    # Wrap each <idx:orth> with <h5><dt>
-    content = re.sub(
-        r'(<idx:orth>.*?</idx:orth>)',
-        r'<h5><dt>\1</dt></h5>',
-        content
-    )
+    # Replace <<word>> with <a href="#word">word</a>
+    content = re.sub(r"&lt;&lt;(.*?)&gt;&gt;", r'<a href="#\1">\1</a>', content)
 
     # Replace <div style="margin-left:1em"> with <span class="padding-1">
     content = re.sub(
         r'<div style="margin-left:1em">(.*?)</div>',
-        r'<span class="padding-1">\1</span>',
+        r'&nbsp;&nbsp;\1',
         content,
         flags=re.DOTALL
     )
@@ -47,7 +33,7 @@ def process_dictionary_file(input_file, output_file):
     # Replace <div style="margin-left:1em"> with <span class="padding-2">
     content = re.sub(
         r'<div style="margin-left:2em">(.*?)</div>',
-        r'<span class="padding-2">\1</span>',
+        r'&nbsp;&nbsp;&nbsp;&nbsp;\1',
         content,
         flags=re.DOTALL
     )
@@ -55,7 +41,7 @@ def process_dictionary_file(input_file, output_file):
     # Replace <div style="margin-left:3em"> with <span class="padding-3">
     content = re.sub(
         r'<div style="margin-left:3em"><span class="sec">(.*?)</span></div>',
-        r'<span class="padding-3">\1</span>',
+        r'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\1',
         content,
         flags=re.DOTALL
     )
@@ -94,14 +80,6 @@ def process_dictionary_file(input_file, output_file):
         content,
         flags=re.DOTALL
     )
-
-    # Remove all <div> wrappers
-    # content = re.sub(r'<div[^>]*>', '', content)  # Remove opening <div> with any attributes
-    # content = re.sub(r'</div>', '', content)  # Remove closing </div>
-
-    # Replace <p> with <dd> and clean up any closing </p> tags
-    content = re.sub(r'<p>', '<dd>', content)
-    content = re.sub(r'</p>', '</dd>', content)
 
     # Write the processed content to the output file
     with open(output_file, 'w', encoding='utf-8') as file:
