@@ -1,0 +1,26 @@
+h5 {
+  font-size: 1em;
+  margin: 0;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0;
+  padding: 0 0 0.5em 0;
+  display: block;
+}
+
+b {
+  color: darkred;
+}
+
+span, span b, em {
+  color: green;
+}
+
+a {
+  text-decoration: underline;
+}
