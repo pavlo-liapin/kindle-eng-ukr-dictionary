@@ -62,10 +62,11 @@ def delete_temp_directory():
 
 
 def run_script(script_name):
-    """Run a Python script and capture the output."""
+    """Run a Python script located in the scripts/ directory and capture the output."""
     try:
-        print(f"\033[1;34mRunning {script_name}...\033[0m")
-        subprocess.run(["python", script_name], check=True)
+        script_path = os.path.join("scripts", script_name)
+        print(f"\033[1;34mRunning {script_path}...\033[0m")
+        subprocess.run(["python", script_path], check=True)
     except subprocess.CalledProcessError as e:
         print(f"\033[1;31mError while running {script_name}: {e}\033[0m")
         return False
@@ -115,7 +116,7 @@ def main():
         for script in scripts:
             if not run_script(script):
                 break  # Stop execution if a script fails
-            
+
             # Run validation if the script has a corresponding output file
             if script in validation_mapping:
                 output_file = validation_mapping[script]
