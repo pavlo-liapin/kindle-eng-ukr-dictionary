@@ -12,7 +12,7 @@ e-reader.
 
 ## Installation
 
-1. Download the dictionary file in MOBI format.
+1. Download [the latest version of the dictionary file](https://github.com/pavlo-liapin/kindle-eng-ukr-dictionary/releases/download/1.0/en-ua-dictionary-1.0.mobi) in MOBI format.
 2. Install [Calibre](https://calibre-ebook.com) on your computer.
 3. Connect your Kindle to your computer using a USB cable.
 4. In Calibre, go to *Device* > *Add Books from a single folder*, and select
