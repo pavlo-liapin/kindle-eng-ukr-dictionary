@@ -1,1 +1,15 @@
+# macOS system files
 .DS_Store
+__MACOSX/
+
+# Output directory for generated files
+output/*.xhtml
+
+# Cache files created by Python
+__pycache__/
+
+# Temporary files or directories
+temp/
+
+# Virtual environment directory
+venv/
