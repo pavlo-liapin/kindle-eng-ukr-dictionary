@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="BookID">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>Англо-український словник М.І.Балла</dc:title>
+    <dc:language>en</dc:language>
+    <!-- <dc:identifier id="BookID">urn:uuid:12345-67890-nothing</dc:identifier> -->
+    <dc:creator>М. Балла</dc:creator>
+    <dc:publisher>Освіта</dc:publisher>
+    <!-- <meta name="cover" content="cover-image" /> --> <!-- Optional: Reference a cover image -->
+  </metadata>
+
+
+  <x-metadata>
+    <!-- The language of the dictionary's source words (English) -->
+    <DictionaryInLanguage>en</DictionaryInLanguage>
+
+    <!-- The language of the dictionary's definitions (Ukrainian) -->
+    <DictionaryOutLanguage>uk</DictionaryOutLanguage>
+
+    <DefaultLookupIndex>default</DefaultLookupIndex>
+
+    <!-- Explicitly marks this as a dictionary -->
+    <CdeType>DICTIONARY</CdeType>
+
+    <!-- UTF-8 encoding for Cyrillic compatibility -->
+    <output encoding="UTF-8" />
+
+    <!-- Human-readable title -->
+    <Title>Англо-український словник М.І.Балла</Title>
+  </x-metadata>
+
+  <manifest>
+    <!-- Main dictionary file -->
+    <item id="dictionary1" href="dictionary-1.xhtml" media-type="application/xhtml+xml" />
+    <item id="dictionary2" href="dictionary-2.xhtml" media-type="application/xhtml+xml" />
+    <item id="dictionary3" href="dictionary-3.xhtml" media-type="application/xhtml+xml" />
+    <item id="dictionary4" href="dictionary-4.xhtml" media-type="application/xhtml+xml" />
+    <item id="dictionary5" href="dictionary-5.xhtml" media-type="application/xhtml+xml" />
+    <item id="dictionary6" href="dictionary-6.xhtml" media-type="application/xhtml+xml" />
+
+    <!-- Optional: Table of Contents (not required for dictionaries) -->
+    <!-- <item id="toc" href="toc.ncx" media-type="application/x-dtbncx+xml" /> -->
+
+    <!-- Optional: Cover image -->
+    <!-- <item id="cover-image" href="cover.jpg" media-type="image/jpeg" /> -->
+  </manifest>
+
+  <spine>
+    <itemref idref="dictionary1" />
+    <itemref idref="dictionary2" />
+    <itemref idref="dictionary3" />
+    <itemref idref="dictionary4" />
+    <itemref idref="dictionary5" />
+    <itemref idref="dictionary6" />
+  </spine>
+
+  <guide>
+    <reference type="index" title="IndexName" href="dictionary-1.xhtml" />
+    <reference type="index" title="IndexName" href="dictionary-2.xhtml" />
+    <reference type="index" title="IndexName" href="dictionary-3.xhtml" />
+    <reference type="index" title="IndexName" href="dictionary-4.xhtml" />
+    <reference type="index" title="IndexName" href="dictionary-5.xhtml" />
+    <reference type="index" title="IndexName" href="dictionary-6.xhtml" />
+  </guide>
+</package>

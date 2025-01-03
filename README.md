@@ -2,7 +2,7 @@
 
 This repository provides a Kindle-compatible format of the English-Ukrainian
 dictionary (Англо-український словник М.І. Балла), a comprehensive resource
-originally sourced from [https://github.com/bakustarver/ukr-dictionaries-list-opensource](bakustarver/ukr-dictionaries-list-opensource).
+originally sourced from [bakustarver/ukr-dictionaries-list-opensource](https://github.com/bakustarver/ukr-dictionaries-list-opensource).
 
 The dictionary has been optimized for use on Kindle devices,
 enabling seamless access to translations and definitions directly within your
