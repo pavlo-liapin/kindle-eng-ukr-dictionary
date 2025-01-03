@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/16a8c33a-2539-44a9-ac20-3132f5e98ef4">
+<img src="https://github.com/user-attachments/assets/748ae2b9-2b22-4196-9178-ad1dbca3622b">
 
 ## About
 
@@ -10,15 +10,26 @@ The dictionary has been optimized for use on Kindle devices,
 enabling seamless access to translations and definitions directly within your
 e-reader.
 
+## Installation
+
+1. Download the dictionary file in MOBI format.
+2. Install [Calibre](https://calibre-ebook.com) on your computer.
+3. Connect your Kindle to your computer using a USB cable.
+4. In Calibre, go to *Device* > *Add Books from a single folder*, and select
+   the downloaded MOBI file.
+5. Once the transfer is complete, go to *Device* > *Eject* to safely remove
+   your Kindle.
+6. On your Kindle, set the newly added dictionary as the default dictionary.
+
 ## Acknowledgments
 
 Thanks to these great resources that helped in preparing this dictionary:
 
-- [Ukrainian offline dictionaries in open formats](https://github.com/bakustarver/ukr-dictionaries-list-opensource/releases)
+- [Ukrainian offline dictionaries in open formats](https://github.com/bakustarver/ukr-dictionaries-list-opensource)
   for providing the source of this dictionary.
 
 - **Jake McCrary**'s article
-  [https://jakemccrary.com/blog/2020/11/11/creating-a-custom-kindle-dictionary/](https://jakemccrary.com/blog/2020/11/11/creating-a-custom-kindle-dictionary/)
+  [Creating a custom Kindle dictionary](https://jakemccrary.com/blog/2020/11/11/creating-a-custom-kindle-dictionary/)
   for explaining the basics of the Kindle dictionary format.
 
 - **Hossein Yazdani**'s open-source
