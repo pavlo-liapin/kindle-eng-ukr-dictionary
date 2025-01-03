@@ -64,6 +64,6 @@ def process_file(input_path, csv_output_path):
 
 if __name__ == "__main__":
     input_file = "temp/05.filter-irregular-nouns.txt"  # Input file path
-    csv_output_file = "csv/adjectives.csv"  # CSV output file path
+    csv_output_file = "temp/adjectives.csv"  # CSV output file path
 
     process_file(input_file, csv_output_file)

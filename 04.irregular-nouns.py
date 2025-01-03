@@ -76,6 +76,6 @@ def process_file(input_path, csv_output_path):
 
 if __name__ == "__main__":
     input_file = "temp/03.british-american-variants.txt"  # Input file path
-    csv_output_file = "csv/nouns-irregular.csv"  # CSV output file path
+    csv_output_file = "temp/nouns-irregular.csv"  # CSV output file path
 
     process_file(input_file, csv_output_file)

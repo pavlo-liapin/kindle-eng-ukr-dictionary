@@ -47,7 +47,7 @@ def process_file(input_path, irregular_csv_path, csv_output_path):
     Args:
         input_path (str): Path to the input file (src/3-inflected.txt).
         irregular_csv_path (str): Path to the irregular nouns CSV file.
-        csv_output_path (str): Path to the output CSV file (csv/nouns-regular.csv).
+        csv_output_path (str): Path to the output CSV file (temp/nouns-regular.csv).
     """
     # Load irregular nouns
     irregular_nouns = load_irregular_nouns(irregular_csv_path)
@@ -102,7 +102,7 @@ def process_file(input_path, irregular_csv_path, csv_output_path):
 
 if __name__ == "__main__":
     input_file = "temp/05.filter-irregular-nouns.txt"  # Input file path
-    irregular_csv_path = "csv/nouns-irregular.csv"  # Irregular nouns CSV file path
-    csv_output_file = "csv/nouns-regular.csv"  # CSV output file path
+    irregular_csv_path = "temp/nouns-irregular.csv"  # Irregular nouns CSV file path
+    csv_output_file = "temp/nouns-regular.csv"  # CSV output file path
 
     process_file(input_file, irregular_csv_path, csv_output_file)

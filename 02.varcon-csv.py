@@ -75,7 +75,7 @@ def parse_varcon(varcon_path, output_csv_path):
 if __name__ == "__main__":
     varcon_zip_path = "src/varcon.zip"  # Path to varcon.zip
     varcon_txt_path = "temp/varcon.txt"  # Temporary path for extracted varcon.txt
-    output_csv_path = "csv/british_american_variants.csv"  # Output CSV file path
+    output_csv_path = "temp/british_american_variants.csv"  # Output CSV file path
 
     # Create temp/ directory if it doesn't exist
     os.makedirs(os.path.dirname(varcon_txt_path), exist_ok=True)

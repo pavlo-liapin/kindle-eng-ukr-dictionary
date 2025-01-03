@@ -94,6 +94,6 @@ def process_irregular_verbs_to_csv(input_path, csv_output_path):
 
 if __name__ == "__main__":
     input_file = "temp/05.filter-irregular-nouns.txt"  # Input file path
-    csv_output_file = "csv/verbs-irregular.csv"  # CSV output file path
+    csv_output_file = "temp/verbs-irregular.csv"  # CSV output file path
 
     process_irregular_verbs_to_csv(input_file, csv_output_file)

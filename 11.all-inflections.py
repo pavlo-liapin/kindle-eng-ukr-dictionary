@@ -112,8 +112,8 @@ def process_txt_file(txt_path, variants, output_path):
     print(f"Updated file saved as: {output_path}")
 
 if __name__ == "__main__":
-    csv_paths = ["csv/nouns-regular.csv", "csv/adjectives.csv", "csv/verbs-regular.csv"]
-    merged_csv_path = "csv/all_inflections.csv"
+    csv_paths = ["temp/nouns-regular.csv", "temp/adjectives.csv", "temp/verbs-regular.csv"]
+    merged_csv_path = "temp/all_inflections.csv"
     txt_path = "temp/08.filter-irregular-verbs.txt"
     output_path = "temp/11.all-inflections.txt"
 

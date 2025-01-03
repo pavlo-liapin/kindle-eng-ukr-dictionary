@@ -105,7 +105,7 @@ def process_file(input_path, irregular_csv_path, csv_output_path):
 
 if __name__ == "__main__":
     input_file = "temp/05.filter-irregular-nouns.txt"  # Input file path
-    irregular_csv_path = "csv/verbs-irregular.csv"  # Irregular verbs CSV file path
-    csv_output_file = "csv/verbs-regular.csv"  # CSV output file path
+    irregular_csv_path = "temp/verbs-irregular.csv"  # Irregular verbs CSV file path
+    csv_output_file = "temp/verbs-regular.csv"  # CSV output file path
 
     process_file(input_file, irregular_csv_path, csv_output_file)

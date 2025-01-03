@@ -73,7 +73,7 @@ def process_txt_file(txt_path, variants, output_path):
 
 # Usage
 if __name__ == "__main__":
-    csv_path = "csv/british_american_variants.csv"  # Path to the CSV file
+    csv_path = "temp/british_american_variants.csv"  # Path to the CSV file
     txt_path = "temp/01.crosslinks.txt"  # Path to the input TXT file
     output_path = "temp/03.british-american-variants.txt"  # Path to the output TXT file
 
