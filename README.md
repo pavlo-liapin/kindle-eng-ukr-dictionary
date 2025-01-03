@@ -83,6 +83,14 @@ Thanks to these great resources that helped in preparing this dictionary:
   which provides information to convert between American, British, Canadian,
   and Australian spellings and vocabulary.
 
+## License
+
+### Attribution for AI-Generated Content
+Some parts of this project, including code and images, were generated with the
+assistance of OpenAI's ChatGPT. OpenAI asserts no copyright over the outputs
+you generate with ChatGPT, and you are free to use them in accordance with the
+terms of the [OpenAI Usage Policies](https://openai.com/policies/usage-policies).
+
 ### VarCon Licensing
 
 The VarCon dataset is Copyright 2000-2020 by Kevin Atkinson and Benjamin Titze
@@ -93,5 +101,3 @@ The VarCon dataset was derived from numerous sources, including the Ispell
 distribution, and is provided "as is" without warranty.
 
 For more details, visit the official VarCon page: [http://wordlist.aspell.net/](http://wordlist.aspell.net/).
-
-Special thanks to Kevin Atkinson and Benjamin Titze for their work on VarCon.
