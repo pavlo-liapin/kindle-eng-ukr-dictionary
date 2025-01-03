@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/748ae2b9-2b22-4196-9178-ad1dbca3622b">
+<img src="https://github.com/user-attachments/assets/8b2ffba5-74f9-4308-b455-57068e2e0c1c">
 
 ## About
 
@@ -20,6 +20,23 @@ e-reader.
 5. Once the transfer is complete, go to *Device* > *Eject* to safely remove
    your Kindle.
 6. On your Kindle, set the newly added dictionary as the default dictionary.
+
+## Development
+
+### Prerequisites
+
+The scripts have been tested with **Python 3.10.16**, and the following dependencies are required:
+
+```bash
+pip install pyinflect
+pip install -U pip setuptools wheel
+pip install -U spacy
+python -m spacy download en_core_web_sm
+```
+
+> [!NOTE]
+> On macOS ARM (e.g., M1/M2), use `spacy[apple]` instead of `spacy` for compatibility.
+> For more details, refer to the [SpaCy installation guide](https://spacy.io/usage#installation).
 
 ## Acknowledgments
 
