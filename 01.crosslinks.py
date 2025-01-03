@@ -59,8 +59,8 @@ def process_cross_links(input_path, output_path):
 
 # Usage
 if __name__ == "__main__":
-    input_path = "src/0-sanitized.txt"  # Path to the input TXT file
-    output_path = "src/1-no-links.txt"  # Path to the output TXT file
+    input_path = "temp/00.sanitize.txt"  # Path to the input TXT file
+    output_path = "temp/01.crosslinks.txt"  # Path to the output TXT file
 
     # Process the file
     process_cross_links(input_path, output_path)
