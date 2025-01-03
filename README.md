@@ -38,6 +38,29 @@ python -m spacy download en_core_web_sm
 > On macOS ARM (e.g., M1/M2), use `spacy[apple]` instead of `spacy` for compatibility.
 > For more details, refer to the [SpaCy installation guide](https://spacy.io/usage#installation).
 
+### Scripts
+
+The following scripts are executed sequentially to process the original source dictionary:
+
+| Script Name                                 | Purpose                                                                                   |
+|---------------------------------------------|-------------------------------------------------------------------------------------------|
+| [00.sanitize.py](scripts/00.sanitize.py)    | Removes metadata entries from the dictionary.                                             |
+| [01.crosslinks.py](scripts/01.crosslinks.py)| Merges dictionary articles with simple links into a single consolidated entry.            |
+| [02.varcon-csv.py](scripts/02.varcon-csv.py)| Converts the Variant Conversion (VarCon) dataset into a CSV of British and American variants. |
+| [03.variants.py](scripts/03.variants.py)    | Applies the generated CSV to add synonyms and variants to the dictionary.                 |
+| [04.irregular-nouns.py](scripts/04.irregular-nouns.py)| Extracts irregular noun inflections from the dictionary and saves them in a CSV.           |
+| [05.filter-irregular-nouns.py](scripts/05.filter-irregular-nouns.py)| Merges dictionary articles for irregular nouns into their main entries.                    |
+| [06.regular-nouns.py](scripts/06.regular-nouns.py)| Processes regular noun inflections, such as plural forms.                                  |
+| [07.adjectives.py](scripts/07.adjectives.py)| Generates comparative and superlative forms of adjectives.                                |
+| [08.filter-irregular-verbs.py](scripts/08.filter-irregular-verbs.py)| Merges dictionary articles for irregular verbs into their main entries.                    |
+| [09.irregular-verbs.py](scripts/09.irregular-verbs.py)| Extracts irregular verb inflections and saves them in a CSV.                               |
+| [10.regular-verbs.py](scripts/10.regular-verbs.py)| Processes regular verb inflections (e.g., past tense, participles, -ing form, singular forms). |
+| [11.all-inflections.py](scripts/11.all-inflections.py)| Applies all previously extracted and processed inflections back into the dictionary.       |
+| [12.clean-markup.py](scripts/12.clean-markup.py)| Cleans up redundant markup from the original source file.                                  |
+| [13.convert-to-xhtml.py](scripts/13.convert-to-xhtml.py)| Converts the processed dictionary data into XHTML format for final output.                 |
+
+Each script plays a critical role in transforming the source dictionary into its final structured and usable format.
+
 ## Acknowledgments
 
 Thanks to these great resources that helped in preparing this dictionary:
