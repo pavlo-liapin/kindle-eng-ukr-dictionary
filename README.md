@@ -1,7 +1,9 @@
-<img src="https://github.com/user-attachments/assets/550a8659-0a50-415c-94b5-a4abb5256f0e">
+<img src="https://github.com/user-attachments/assets/16a8c33a-2539-44a9-ac20-3132f5e98ef4">
+
+## About
 
 This repository provides a Kindle-compatible format of the English-Ukrainian
-dictionary (Англо-український словник М.І. Балла), a comprehensive resource
+dictionary (*Англо-український словник М.І. Балла*), a comprehensive resource
 originally sourced from [bakustarver/ukr-dictionaries-list-opensource](https://github.com/bakustarver/ukr-dictionaries-list-opensource).
 
 The dictionary has been optimized for use on Kindle devices,
@@ -10,9 +12,25 @@ e-reader.
 
 ## Acknowledgments
 
-This project incorporates the [**VarCon dataset**](src/varcon.zip) (Variant Conversion Info),
-which provides information to convert between American, British, Canadian,
-and Australian spellings and vocabulary.
+Thanks to these great resources that helped in preparing this dictionary:
+
+- [Ukrainian offline dictionaries in open formats](https://github.com/bakustarver/ukr-dictionaries-list-opensource/releases)
+  for providing the source of this dictionary.
+
+- **Jake McCrary**'s article
+  [https://jakemccrary.com/blog/2020/11/11/creating-a-custom-kindle-dictionary/](https://jakemccrary.com/blog/2020/11/11/creating-a-custom-kindle-dictionary/)
+  for explaining the basics of the Kindle dictionary format.
+
+- **Hossein Yazdani**'s open-source
+  [English-Persian Dictionary](https://github.com/hossein1376/English-Persian-Kindle-Custom-Dictionary)
+  and
+  [Kindle Custom Dictionary Scripts](https://github.com/hossein1376/Kindle-Custom-Dictionary-Scripts)
+  for providing basic scripts that actually work.
+
+- **Kevin Atkinson** and **Benjamin Titze** for the
+  [**VarCon dataset**](src/varcon.zip) (Variant Conversion Info),
+  which provides information to convert between American, British, Canadian,
+  and Australian spellings and vocabulary.
 
 ### VarCon Licensing
 
