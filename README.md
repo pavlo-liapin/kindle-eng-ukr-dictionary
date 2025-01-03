@@ -1,4 +1,4 @@
-# kindle-en-ua-dictionary
+<img src="https://github.com/user-attachments/assets/550a8659-0a50-415c-94b5-a4abb5256f0e">
 
 This repository provides a Kindle-compatible format of the English-Ukrainian
 dictionary (Англо-український словник М.І. Балла), a comprehensive resource
