@@ -1,10 +1,5 @@
 import os
-import zipfile
-import shutil
 
-# Define the ZIP file path and destination directory
-zip_file = "src/eng-ukr_Balla_v1.3.zip"
-unpack_dir = "temp"
 txt_file = "temp/12.clean-markup.txt"
 
 xhtml_header = (
@@ -27,18 +22,6 @@ xhtml_footer = (
     '</body>\n'
     '</html>\n'
 )
-
-# Unpack the ZIP file
-try:
-    with zipfile.ZipFile(zip_file, 'r') as zip_ref:
-        zip_ref.extractall(unpack_dir)
-        print(f"ZIP file {zip_file} unpacked successfully to {unpack_dir}.")
-except FileNotFoundError:
-    print(f"Error: ZIP file {zip_file} not found.")
-    exit(1)
-except zipfile.BadZipFile:
-    print(f"Error: {zip_file} is not a valid ZIP file.")
-    exit(1)
 
 # Process the generated file and write to XHTML formats
 batch_size = 15000
@@ -95,10 +78,3 @@ with open(txt_file, "r", encoding="utf-8") as infile:
 outfile.write(xhtml_footer)
 outfile.close()
 print(f"Final entries written to {output_file}")
-
-# Cleanup temporary directory
-try:
-    shutil.rmtree(unpack_dir)
-    print(f"Temporary directory {unpack_dir} and its contents deleted successfully.")
-except OSError as e:
-    print(f"Error deleting temporary directory {unpack_dir}: {e}")

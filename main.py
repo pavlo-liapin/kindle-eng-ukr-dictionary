@@ -32,20 +32,10 @@ validation_mapping = {
 }
 
 # Colorful ASCII header and footer
-HEADER = """
-\033[1;36m
-Preparing a dictionary...
-\033[0m
-"""
-
-FOOTER = """
-\033[1;32m
-Finished!
-\033[0m
-"""
+HEADER = """\033[1;36mPreparing a dictionary...\033[0m"""
+FOOTER = """\033[1;32mFinished!\033[0m"""
 
 TEMP_DIR = "temp/"
-
 
 def create_temp_directory():
     """Create the temp/ directory if it does not exist."""
