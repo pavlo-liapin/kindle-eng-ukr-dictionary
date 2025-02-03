@@ -6,19 +6,15 @@
 
 Welcome to the Kindle-Compatible English-Ukrainian Dictionary!
 
-This is a fully optimized dictionary that allows seamless translations and definitions directly on your Kindle e-reader.
-
 This dictionary integrates natively into Kindle, making it the perfect companion for Ukrainian language learners, translators, and book lovers! 📚✨
 
-# Features
+### Features
 
-✅ Optimized for Kindle – Look up words instantly!
-✅ Fast & Lightweight – No lag, no hassle.
-✅ Massive Word Database – Includes over 75,000 articles and 155,000+ words!
-✅ Based on the trusted dictionary (*Англо-український словник М.І. Балла*) – A comprehensive resource sourced from [bakustarver/ukr-dictionaries-list-opensource](https://github.com/bakustarver/ukr-dictionaries-list-opensource).
+✅ Optimized for Kindle – Look up words instantly!<br/>
+✅ Fast & Lightweight – No lag, no hassle.<br/>
+✅ Massive Word Database – Includes over 75,000 articles and 155,000+ words!<br/>
+✅ Based on the trusted dictionary (*Англо-український словник М.І. Балла*) – A comprehensive resource sourced from [bakustarver/ukr-dictionaries-list-opensource](https://github.com/bakustarver/ukr-dictionaries-list-opensource).<br/>
 ✅ Completely Open-Source – Free for everyone to use and improve.
-
-📊 Dictionary Stats
 
 ## Installation
 
