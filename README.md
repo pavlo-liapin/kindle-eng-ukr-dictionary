@@ -2,7 +2,7 @@
 
 ## About
 
-<img src="https://github.com/user-attachments/assets/2d9de4ab-ced6-4dfb-b12b-13a1d97c3525" align="right">
+<img src="https://github.com/user-attachments/assets/fb2c19c8-a7b3-4216-a812-a724289ed6bc" align="right">
 
 This repository provides a Kindle-compatible format of the English-Ukrainian
 dictionary (*Англо-український словник М.І. Балла*), a comprehensive resource
@@ -12,8 +12,8 @@ The dictionary has been optimized for use on Kindle devices,
 enabling seamless access to translations and definitions directly within your
 e-reader.
 
-- Total articles: 75523
-- Words in dictionary: 155622
+- **Total articles**: 75523
+- **Words in dictionary**: 155622
 
 ## Installation
 
