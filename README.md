@@ -1,20 +1,21 @@
 <img src="https://github.com/user-attachments/assets/8b2ffba5-74f9-4308-b455-57068e2e0c1c">
 
-## English-Ukrainian Dictionary for Kindle 🇬🇧🇺🇦
+## English-Ukrainian Dictionary for Kindle
 
-<img src="https://github.com/user-attachments/assets/fb2c19c8-a7b3-4216-a812-a724289ed6bc" align="right">
+<img src="https://github.com/user-attachments/assets/1dee5c1e-1d68-4546-9fef-7971fbbd0806" align="right" width="300px">
 
-Welcome to the Kindle-Compatible English-Ukrainian Dictionary!
+Welcome to the Kindle-Compatible English-Ukrainian Dictionary! 🇬🇧🇺🇦
 
 This dictionary integrates natively into Kindle, making it the perfect companion for Ukrainian language learners, translators, and book lovers! 📚✨
 
 ### Features
 
-✅ Optimized for Kindle – Look up words instantly!<br/>
-✅ Fast & Lightweight – No lag, no hassle.<br/>
-✅ Massive Word Database – Includes over 75,000 articles and 155,000+ words!<br/>
-✅ Based on the trusted dictionary (*Англо-український словник М.І. Балла*) – A comprehensive resource sourced from [bakustarver/ukr-dictionaries-list-opensource](https://github.com/bakustarver/ukr-dictionaries-list-opensource).<br/>
-✅ Completely Open-Source – Free for everyone to use and improve.
+- **Optimized for Kindle**. Look up words instantly without leaving your book!<br/>
+- **Fast & Lightweight**. No lag, no hassle.<br/>
+- **Massive Word Database**. Includes over 75,000 articles and 155,000+ words!<br/>
+- **Based on the trusted dictionary**. *Англо-український словник М.І. Балла*, sourced from [bakustarver/ukr-dictionaries-list-opensource](https://github.com/bakustarver/ukr-dictionaries-list-opensource).<br/>
+- **British & American Spellings**. Whether it’s *color/colour* or *organize/organise*, this dictionary has you covered!
+- **Supports Different Word Forms**. Various verb conjugations, adjective forms, and plural nouns for accurate translations.
 
 ## Installation
 
