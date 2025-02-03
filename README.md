@@ -4,7 +4,7 @@
 
 <img src="https://github.com/user-attachments/assets/1dee5c1e-1d68-4546-9fef-7971fbbd0806" align="right" width="250px">
 
-**Welcome to the Kindle-Compatible English-Ukrainian Dictionary!**
+**Welcome to the English-Ukrainian Dictionary for Kindle!**
 
 This comprehensive, Kindle-native dictionary is designed to provide seamless translations while reading, making it the perfect companion for language learners, translators, and book lovers! 📚✨
 
@@ -12,7 +12,7 @@ If you’re a Ukrainian native speaker expanding your English vocabulary through
 
 Compatible with all Kindle models and generations — including *Kindle Paperwhite*, *Oasis*, *Scribe* and others, it integrates directly into the Kindle lookup feature. It also works on any e-reader or app that supports MOBI dictionaries, ensuring a smooth and effortless bilingual reading experience.
 
-### Features
+## Features
 
 - 🔍 **Optimized for Kindle**. Look up words instantly without leaving your book!<br/>
 - ⚡ **Fast & Lightweight**. No lag, no hassle.<br/>
