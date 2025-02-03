@@ -2,20 +2,20 @@
 
 ## English-Ukrainian Dictionary for Kindle
 
-<img src="https://github.com/user-attachments/assets/1dee5c1e-1d68-4546-9fef-7971fbbd0806" align="right" width="300px">
+<img src="https://github.com/user-attachments/assets/1dee5c1e-1d68-4546-9fef-7971fbbd0806" align="right" width="250px">
 
 This powerful, Kindle-native dictionary is designed to provide seamless translations while reading, making it the perfect companion for Ukrainian or English language learners, translators, and book lovers! 📚✨
 
-Whether you have a Kindle Paperwhite, Oasis, Scribe, or Basic model, this dictionary integrates directly into the Kindle lookup feature. It works on all generations of Kindle devices and any e-reader or app that supports MOBI dictionaries.
+Whether you have a *Kindle Paperwhite*, *Oasis*, *Scribe*, or another model, this dictionary integrates directly into the Kindle lookup feature. It works on all generations of Kindle devices and any e-reader or app that supports MOBI dictionaries.
 
 ### Features
 
-- **Optimized for Kindle**. Look up words instantly without leaving your book!<br/>
-- **Fast & Lightweight**. No lag, no hassle.<br/>
-- **Massive Word Database**. Includes over 75,000 articles and 155,000+ words!<br/>
-- **Based on the trusted dictionary**. *Англо-український словник М.І. Балла*, sourced from [bakustarver/ukr-dictionaries-list-opensource](https://github.com/bakustarver/ukr-dictionaries-list-opensource).<br/>
-- **British & American Spellings**. Whether it’s *color/colour* or *organize/organise*, this dictionary has you covered!
-- **Supports Different Word Forms**. Various verb conjugations, adjective forms, and plural nouns for accurate translations.
+🔍 **Optimized for Kindle**. Look up words instantly without leaving your book!<br/>
+⚡ **Fast & Lightweight**. No lag, no hassle.<br/>
+📚 **Massive Word Database**. Includes over 75,000 articles and 155,000+ words!<br/>
+📖 **Based on the trusted dictionary**. *Англо-український словник М.І. Балла*, sourced from [bakustarver/ukr-dictionaries-list-opensource](https://github.com/bakustarver/ukr-dictionaries-list-opensource).<br/>
+🌍 **British & American Spellings**. Whether it’s *color/colour* or *organize/organise*, this dictionary has you covered!
+🔠 **Supports Different Word Forms**. Various verb conjugations, adjective forms, and plural nouns for accurate translations.
 
 ## Installation
 
