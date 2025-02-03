@@ -1,10 +1,10 @@
 <img src="https://github.com/user-attachments/assets/8b2ffba5-74f9-4308-b455-57068e2e0c1c">
 
-## About
+## About 🇬🇧🇺🇦
 
-**Welcome to the Kindle-Compatible English-Ukrainian Dictionary!** 🇬🇧🇺🇦
+<img src="https://github.com/user-attachments/assets/1dee5c1e-1d68-4546-9fef-7971fbbd0806" align="right" width="220px">
 
-<img src="https://github.com/user-attachments/assets/1dee5c1e-1d68-4546-9fef-7971fbbd0806" align="right" width="250px">
+**Welcome to the Kindle-Compatible English-Ukrainian Dictionary!**
 
 This powerful, Kindle-native dictionary is designed to provide seamless translations while reading, making it the perfect companion for Ukrainian or English language learners, translators, and book lovers! 📚✨
 
