@@ -1,30 +1,41 @@
 <img src="https://github.com/user-attachments/assets/8b2ffba5-74f9-4308-b455-57068e2e0c1c">
 
-## About
+## English-Ukrainian Dictionary for Kindle 🇬🇧🇺🇦
 
 <img src="https://github.com/user-attachments/assets/fb2c19c8-a7b3-4216-a812-a724289ed6bc" align="right">
 
-This repository provides a Kindle-compatible format of the English-Ukrainian
-dictionary (*Англо-український словник М.І. Балла*), a comprehensive resource
-originally sourced from [bakustarver/ukr-dictionaries-list-opensource](https://github.com/bakustarver/ukr-dictionaries-list-opensource).
+Welcome to the Kindle-Compatible English-Ukrainian Dictionary!
 
-The dictionary has been optimized for use on Kindle devices,
-enabling seamless access to translations and definitions directly within your
-e-reader.
+This is a fully optimized dictionary that allows seamless translations and definitions directly on your Kindle e-reader.
 
-- **Total articles**: 75523
-- **Words in dictionary**: 155622
+This dictionary integrates natively into Kindle, making it the perfect companion for Ukrainian language learners, translators, and book lovers! 📚✨
+
+# Features
+
+✅ Optimized for Kindle – Look up words instantly!
+✅ Fast & Lightweight – No lag, no hassle.
+✅ Massive Word Database – Includes over 75,000 articles and 155,000+ words!
+✅ Based on the trusted dictionary (*Англо-український словник М.І. Балла*) – A comprehensive resource sourced from [bakustarver/ukr-dictionaries-list-opensource](https://github.com/bakustarver/ukr-dictionaries-list-opensource).
+✅ Completely Open-Source – Free for everyone to use and improve.
+
+📊 Dictionary Stats
 
 ## Installation
 
-1. Download [the latest version of the dictionary file](https://github.com/pavlo-liapin/kindle-eng-ukr-dictionary/releases/download/1.0/en-ua-dictionary-1.0.mobi) in MOBI format.
+1. Download [the dictionary](https://github.com/pavlo-liapin/kindle-eng-ukr-dictionary/releases/download/1.0/en-ua-dictionary-1.0.mobi) in MOBI format.
 2. Install [Calibre](https://calibre-ebook.com) on your computer.
 3. Connect your Kindle to your computer using a USB cable.
 4. In Calibre, go to *Device* > *Add Books from a single folder*, and select
    the downloaded MOBI file.
 5. Once the transfer is complete, go to *Device* > *Eject* to safely remove
    your Kindle.
-6. On your Kindle, set the newly added dictionary as the default dictionary.
+6. On your Kindle, set it as the default dictionary.
+
+## 📬 Contact & Support
+
+Have questions or suggestions? Drop a message in the Issues tab or reach out on GitHub!
+
+Happy reading! 📚✨
 
 ## Development
 
