@@ -23,6 +23,15 @@ Compatible with all Kindle models and generations — including *Kindle Paperwhi
 
 ## Installation
 
+### 📲 Via Kindle web browser
+
+1. Open a web browser on your Kindle device.
+2. Navigate to the current page on your Kindle - `https://github.com/pavlo-liapin/kindle-eng-ukr-dictionary`
+3. [➡️**click here to download the dictionary**⬅️](https://github.com/pavlo-liapin/kindle-eng-ukr-dictionary/releases/download/1.0/en-ua-dictionary-1.0.mobi) and confirm the download prompt.
+4. Open device settings and set it as the default dictionary.
+
+### 💻 Via USB connection 
+
 1. Download [the dictionary](https://github.com/pavlo-liapin/kindle-eng-ukr-dictionary/releases/download/1.0/en-ua-dictionary-1.0.mobi) in MOBI format.
 2. Install [Calibre](https://calibre-ebook.com) on your computer.
 3. Connect your Kindle to your computer using a USB cable.
